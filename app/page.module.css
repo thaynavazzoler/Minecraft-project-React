@@ -9,15 +9,18 @@
 .container1 {
     background: rgba(38, 36, 35, 255);
 }
+.divHeader{
+    background-color: #52a535;
+    text-align: center;
+}
 
 .tituloHeader {
     font-family: 'Title-Minecraft-Font';
     color: white;
     padding-top: 1em;
-    font-size: 2.8em;
-    line-height: 1;
-    margin: 0 0 .25em;
+    font-size: 4rem;
     text-transform: uppercase;
+    padding-bottom: 8px;
 }
 
 .container2 {
