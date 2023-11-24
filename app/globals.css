@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Noto-Sans;
+  list-style: none;
+  text-decoration: none;
+  
 }
 
 @font-face {
@@ -11,4 +15,12 @@
 @font-face {
   font-family: 'Title-Minecraft-Font';
   src: local('Title-Minecraft-Font'), url(../fonts/Minecrafter.Reg.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Minecraft-Enchantment-Font';
+  src: local('Minecraft-Enchantment-Font'), url(../fonts/minecraft-enchantment.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto-Sans';
+  src: local('Noto-Sans'), url(../fonts/NotoSans-Medium.ttf) format('truetype');
 }
