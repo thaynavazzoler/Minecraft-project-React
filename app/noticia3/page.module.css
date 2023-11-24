@@ -1,0 +1,38 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.news{
+    font-weight: 700!important;
+    background-color: #252525!important;
+    padding: 6px 10px;
+    background-color: #000!important;
+    font-size: .875rem;
+    color: #fff!important;
+    text-transform: uppercase!important;
+    display: inline-block!important;
+    margin: -15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.description{
+    text-align: center;
+    padding: 10px;
+}
+
+
