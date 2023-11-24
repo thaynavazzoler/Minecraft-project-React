@@ -3,3 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Minecraft-Font';
+  src: local('Minecraft-Font'), url(../fonts/Minecraft.ttf) format('truetype');
+}
