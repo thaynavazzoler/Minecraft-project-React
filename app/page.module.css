@@ -1,3 +1,7 @@
 .teste {
     font-family: 'Minecraft-Font';
 } /* isso é so pra caso alm queira usar a fonte do mine, ela ta com esse nome é so usar esse font family */
+
+.teste_com_titulo {
+    font-family: 'Title-Minecraft-Font';
+}

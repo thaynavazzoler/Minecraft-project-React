@@ -8,3 +8,7 @@
   font-family: 'Minecraft-Font';
   src: local('Minecraft-Font'), url(../fonts/Minecraft.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Title-Minecraft-Font';
+  src: local('Title-Minecraft-Font'), url(../fonts/Minecrafter.Reg.ttf) format('opentype');
+}
