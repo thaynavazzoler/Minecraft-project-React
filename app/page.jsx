@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.container1}>
         <div className={styles.divHeader}>
           <h1 className={styles.tituloHeader}>Minecraft news</h1>
-          <img src=""/>
+          
         </div>
         <div>
           <h1 className={styles.tituloCards}>Featured</h1>
