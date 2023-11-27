@@ -47,7 +47,7 @@ export default function NoticiaPage() {
 
                 <div className={Styles.text3}>
                     <img src="https://s-trojmiasto.pl/zdj/c/n/9/2703/597x0/2703588-Oto-postac-z-gry-ktora-synowi-naszej-czytelniczki-kojarzy-sie-z-wieza.jpg" alt="Villager do minecraft" className={Styles.img3} />
-                <p className={Styles.description3}>Written ByStaff</p>
+                <p className={Styles.description3}>Escrio por: Thayná</p>
                 <p className={Styles.description3}>Publicada 09/27/2023</p>
                 </div>
 
@@ -55,10 +55,11 @@ export default function NoticiaPage() {
                 <h3>COMPARTILHE ESTA HISTÓRIA</h3>
                 </div>
 
+
                 <div className={Styles.icons}>
-                 <p className={Styles.icon}><FaFacebook /></p>   
-                 <p className={Styles.icon}> <FaSquareXTwitter /></p>
-                 <p className={Styles.icon}><FaReddit /></p>
+                <a href="https://www.facebook.com"><FaFacebook /></a>
+                <a href="https://twitter.com"><FaSquareXTwitter /></a>
+                <a href="https://www.reddit.com"><FaReddit /></a>
                 </div>
 
                
