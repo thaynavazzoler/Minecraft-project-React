@@ -1,12 +1,12 @@
 .bg {
     background-color: black;
     padding: 10px;
+    
 }
 
 .boxInventory {
+    margin-top: 70px;
     background-color: #c6c6c6;
-    
-    margin: 0 auto;
     padding: 10px;
 }
 
@@ -15,8 +15,22 @@
 }
 
 .itemArmadura {
+    display: flex;
     background-image: url(../../public/inventory/slot.png);
     width: 54px;
     height: 54px;
     margin: 2px;
+}
+
+.itemArmadura .itemDoItem {
+    position: relative;
+    /* deixar no centro */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hidden {
+    display: none;
 }
