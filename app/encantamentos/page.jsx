@@ -1,5 +1,6 @@
 
-
+import { MdArrowBackIos } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 import Header from '../components/header/header';
 import styles from './page.module.css';
 
@@ -19,36 +20,42 @@ const Page_de_encantamentos = () => {
                         Centro
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book1} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book2} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book3} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book4} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         <li className={styles.encantamento}>
                             <span>
-                                <img src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
+                                <img className={styles.book5} src="/Enchanted_Book.webp" alt="encantamento1" width={64} height={64} />
                             </span>
                         </li>
                         
                     </ul>
+                    <button className={styles.arrows}>
+                        <MdArrowForwardIos />
+                    </button>
+                    <button className={styles.arrows}>
+                        <MdArrowBackIos />
+                    </button>
                 </nav>
             </div>
         </main>

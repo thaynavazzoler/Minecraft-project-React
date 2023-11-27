@@ -4,6 +4,11 @@
 
 .encantamentos_container {
     position: relative;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: space-around;
 }
 .encantamentos_list {
     list-style: none;
@@ -18,9 +23,9 @@
     justify-content: center;
 }
 .encantamento{
-    width: 50px; /* ajuste o tamanho conforme necessário */
-    height: 50px; /* ajuste o tamanho conforme necessário */
-    border-radius: 50%; /* para criar um círculo */
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,20 +33,58 @@
 }
 
 
+.book0 {
+    rotate: 360deg;
+}
+.book1 {
+    rotate: 300deg;
+}
+.book2 {
+    rotate: 240deg;
+}
+.book3 {
+    rotate: 180deg;
+}
+.book4 {
+    rotate: 120deg;
+}
+.book5 {
+    rotate: 60deg;
+}
+
+
+.encantamento:nth-child(1) { transform: rotate(0deg) translateX(10rem); }
+.encantamento:nth-child(2) { transform: rotate(60deg) translateX(10rem); }
+.encantamento:nth-child(3) { transform: rotate(120deg) translateX(10rem); }
+.encantamento:nth-child(4) { transform: rotate(180deg) translateX(10rem); }
+.encantamento:nth-child(5) { transform: rotate(240deg) translateX(10rem); }
+.encantamento:nth-child(6) { transform: rotate(300deg) translateX(10rem); }
 
 
 
-.encantamento:nth-child(1) { transform: rotate(0deg) translateX(100px); }
-.encantamento:nth-child(2) { transform: rotate(60deg) translateX(100px); }
-.encantamento:nth-child(3) { transform: rotate(120deg) translateX(100px); }
-.encantamento:nth-child(4) { transform: rotate(180deg) translateX(100px); }
-.encantamento:nth-child(5) { transform: rotate(240deg) translateX(100px); }
-.encantamento:nth-child(6) { transform: rotate(300deg) translateX(100px); }
 
 
 
 
 
+.arrows {
+    padding: 1.8rem 1.3rem;
+    background-color: #3b8526;
+    -webkit-box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    color: #fff;
+    text-shadow: 0 1px 0 #2a631c;
+    border: none;
+}
+.arrows:active{
+    background: #4a494b;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+    -webkit-box-shadow: inset 0 -2px #8d8e92, inset 0 2px #000;
+    box-shadow: inset 0 -2px #8d8e92, inset 0 2px #000;
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+}
 
 
 
