@@ -12,6 +12,7 @@ export default function Home() {
           </div>
           <div>
             <img className={styles.imagemHeader} src="" />
+            <img className={styles.img12} src="traçadoQuadriculado.png" alt="" />
           </div>
           <div className={styles.divHeader2}>
             <h1 className={styles.tituloCards}>Featured</h1>
@@ -26,31 +27,28 @@ export default function Home() {
           </div>
         </div>
 
-          <div className={styles.cardContainer}>
-            <div className={styles.card1}>
-              <img src="https://www.minecraft.net/content/dam/games/dungeons/key-art/md25-header.jpg.transform/minecraft-image-small/image.jpg" />
-              <h3 className={styles.pAzul}>27 de setembro de 2023</h3>
+        <div className={styles.cardContainer}>
+
+          <div className={styles.card1}>
+            <div className={styles.text}>
               <p> MINECRAFT DUNGEONS PASSA DE 25 MILHÕES DE JOGADORES</p>
             </div>
-
-            <div className={styles.card2}>
-              <img src="armamentoMIne.jpg" />
-              <h3 className={styles.pAzul}>22 de outubro de 2023!</h3>
-              <p>VEJA TODOS OS ARMAMENTOS DO MINECRAFT AGORA MESMO!!!</p>
+          </div>
+          
+          <div className={styles.card2}>
+            <div className={styles.textCard2}>
+              <p>VEJA TODOS OS ARMAMENTOS DO MINECRAFT AGORA MESMO!!</p>
             </div>
+          </div>
 
-            <div className={styles.card3}>
-              <img className={styles.imgFooter} src="encantamentoMine.png"/>
-              <h3 className={styles.pAzul}>30 de outubro de 2023!</h3>
+          <div className={styles.card3}>
+            <div className={styles.lastCard}>
               <p>VEJA TODOS OS ENCANTAMENTOS DO MINECRAFT AGORA MESMO!!</p>
             </div>
           </div>
-          <div>
+        </div>
 
-          </div>
-          <img className={styles.footerimg} src="minefooter.jpg" alt="" />
-        
-
+        <img className={styles.footerimg} src="minefooter.jpg" alt="" />
       </div>
     </>
   )
