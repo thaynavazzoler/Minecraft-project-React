@@ -1,0 +1,41 @@
+.main {
+    background-color: #141414;
+    color: #fff;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titles{
+    font-family: 'Title-Minecraft-Font';
+    margin-top: 7rem;
+}
+.subTitles {
+    font-family: 'Minecraft-Enchantment-Font';
+}
+.lista_encantamentos {
+    display: flex;
+    flex-direction: row;
+}
+.encantamentos {
+    padding: 1rem;
+    margin-top: 7rem;
+}
+.encantamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7rem;
+    width: 80%;
+}
+.book {
+
+}
+.nome_encantamento {
+    font-family: 'Title-Minecraft-Font';
+    font-size: 2rem;
+    margin-top: 2rem;
+}
