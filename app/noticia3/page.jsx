@@ -1,8 +1,8 @@
 
 import Styles from "./page.module.css";
-import { FaFacebook } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaReddit } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiLinktree } from "react-icons/si"; 
 
 export default function NoticiaPage() {
     return (
@@ -52,14 +52,14 @@ export default function NoticiaPage() {
                 </div>
 
                 <div>
-                <h3>COMPARTILHE ESTA HISTÓRIA</h3>
+                <h3>Nossas Redes Sociais</h3>
                 </div>
 
 
                 <div className={Styles.icons}>
-                <a href="https://www.facebook.com"><FaFacebook /></a>
-                <a href="https://twitter.com"><FaSquareXTwitter /></a>
-                <a href="https://www.reddit.com"><FaReddit /></a>
+                <a href="https://github.com/MagoValdivia28/Minecraft-project-React"><FaGithub /></a>
+                <a href="https://linktr.ee/admin"><SiLinktree /></a>
+                <a href="https://www.instagram.com"><AiFillInstagram /></a>
                 </div>
 
                
