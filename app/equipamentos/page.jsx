@@ -1,4 +1,5 @@
 "use client"
+import Header from '../components/header/header'
 import styles from './equipamentos.module.css'
 import { useState } from 'react'
 
@@ -7,6 +8,7 @@ const equipamentoPage = () => {
 
     return (
         <div className={styles.bg}>
+            <Header />
             <div className={styles.boxInventory}>
                 <div className={styles.armadura}>
                     <div onClick={() => setEquipamento('capacete')} className={styles.itemArmadura}></div>
