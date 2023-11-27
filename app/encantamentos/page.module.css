@@ -1,41 +1,106 @@
 .main {
-    background-color: #141414;
-    color: #fff;
+    color: #141414;
 }
-.container_text {
+
+.encantamentos_container {
+    position: relative;
+    margin-top: 20rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.encantamentos_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.titles{
+.encantamento{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.book0 {
+    rotate: 360deg;
+}
+.book1 {
+    rotate: 300deg;
+}
+.book2 {
+    rotate: 240deg;
+}
+.book3 {
+    rotate: 180deg;
+}
+.book4 {
+    rotate: 120deg;
+}
+.book5 {
+    rotate: 60deg;
+}
+
+
+.encantamento:nth-child(1) { transform: rotate(0deg) translateX(10rem); }
+.encantamento:nth-child(2) { transform: rotate(60deg) translateX(10rem); }
+.encantamento:nth-child(3) { transform: rotate(120deg) translateX(10rem); }
+.encantamento:nth-child(4) { transform: rotate(180deg) translateX(10rem); }
+.encantamento:nth-child(5) { transform: rotate(240deg) translateX(10rem); }
+.encantamento:nth-child(6) { transform: rotate(300deg) translateX(10rem); }
+
+
+
+
+
+
+
+
+.arrows {
+    padding: 1.8rem 1.3rem;
+    background-color: #3b8526;
+    -webkit-box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    color: #fff;
+    text-shadow: 0 1px 0 #2a631c;
+    border: none;
+}
+.arrows:active{
+    background: #4a494b;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+    -webkit-box-shadow: inset 0 -2px #8d8e92, inset 0 2px #000;
+    box-shadow: inset 0 -2px #8d8e92, inset 0 2px #000;
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+}
+
+
+
+.titles {
     font-family: 'Title-Minecraft-Font';
-    margin-top: 7rem;
 }
 .subTitles {
     font-family: 'Minecraft-Enchantment-Font';
 }
-.lista_encantamentos {
-    display: flex;
-    flex-direction: row;
-}
-.encantamentos {
-    padding: 1rem;
-    margin-top: 7rem;
-}
-.encantamento {
+.titles_container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
     align-items: center;
-    justify-content: center;
-    margin: 0 7rem;
-    width: 80%;
-}
-.book {
-
-}
-.nome_encantamento {
-    font-family: 'Title-Minecraft-Font';
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow: #000 1px 1px 1px;
+    color: white;
 }
