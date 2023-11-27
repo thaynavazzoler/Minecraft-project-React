@@ -1,9 +1,10 @@
+import Header from './components/header/header'
 import styles from './page.module.css'
 
 export default function Home() {
   return (
     <>
-
+      <Header />
       <div className={styles.container1}>
         <div className={styles.divHeader}>
           <h1 className={styles.tituloHeader}>Minecraft news</h1>

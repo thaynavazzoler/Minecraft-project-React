@@ -1,5 +1,6 @@
 
 
+import Header from '../components/header/header';
 import styles from './page.module.css';
 
 
@@ -7,6 +8,7 @@ import styles from './page.module.css';
 const Page_de_encantamentos = () => {
     return (
         <main className={styles.main}>
+            <Header />
             <div className={styles.container_text}>
                 <h1 className={styles.titles}>ENCANTAMENTOS</h1> <h2 className={styles.subTitles}>ENCANTAMENTOS</h2>
                 <nav className={styles.encantamentos}>
