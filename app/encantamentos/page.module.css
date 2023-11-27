@@ -1,79 +1,41 @@
 .main {
-    background-image: url(../../public/bg-wool-dark.png);
+    background-color: #141414;
+    color: #fff;
 }
-
-.main_container {
+.container_text {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    margin: 0rem;
-    color: white;; 
-    /* background-color: #171615; */
-
 }
-
-
-.titles {
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
+.titles{
     font-family: 'Title-Minecraft-Font';
+    margin-top: 7rem;
 }
-
-.sigilos_subTitles {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.subTitles {
     font-family: 'Minecraft-Enchantment-Font';
 }
-.books_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0rem;
-    color: white;
-    /* background-color: #171615; */
-}
-.encantamentos_container {
+.lista_encantamentos {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0rem;
-    color: white;
-    /* background-color: #171615; */
 }
-
 .encantamentos {
-    background-color: #a09172;
-    border-top: #cdbfa7 solid 0.2rem;
-    border-left: #cdbfa7 solid 0.2rem;
-    border-right: #57503a solid 0.2rem;
-    border-bottom: #57503a solid 0.2rem;
-    color: #695e43;
-    height: 7rem;
-    width: 100%;
-    margin: 0.5rem;
+    padding: 1rem;
+    margin-top: 7rem;
 }
-.encantamentos_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    font-family: "Minecraft-Font";
+.encantamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7rem;
+    width: 80%;
 }
-.encantamentos_name {
-    font-size: 1.5rem;
-    font-family: "Minecraft-Font";
+.book {
 
 }
-.encantamentos:hover {
-    background-color: #b588ac;
-    border-top: #f7baf4 solid 0.2rem;
-    border-left: #f7baf4 solid 0.2rem;
-    border-right: #684b5f solid 0.2rem;
-    border-bottom: #684b5f solid 0.2rem;
-    color: #fff688;
+.nome_encantamento {
+    font-family: 'Title-Minecraft-Font';
+    font-size: 2rem;
+    margin-top: 2rem;
 }
