@@ -7,26 +7,27 @@ export default function Home() {
       <div className={styles.container1}>
         <div className={styles.divHeader}>
           <h1 className={styles.tituloHeader}>Minecraft news</h1>
-          
         </div>
         <div>
+          <img className={styles.imagemHeader} src="" />
+        </div>
+        <div className={styles.divHeader2}>
           <h1 className={styles.tituloCards}>Featured</h1>
         </div>
         <div className={styles.container2}>
           <div className={styles.container3}>
-            <h1>CONHEÇA AIRPHORIA NO FORTNITE: A CAÇA AOS TÊNIS SUPREMA DA NIKE!!</h1>
+            <h1>A atualização do Trails & Tales está no ar!</h1>
           </div>
           <div className={styles.container4}>
-            <h1>
-              CRIE AGORA MESMO A SUA PRÓPRIA SKIN!</h1>
+            <h1>Minecraft Legends lançou!</h1>
           </div>
         </div>
 
         <div className={styles.cardContainer}>
           <div className={styles.card1}>
-            <img src="https://cdn2.unrealengine.com/fortnite-island-creator-rules-1900x600-a829c3da1d8f.jpg" />
-            <h3 className={styles.pAzul}>15 de outubro de 2023!</h3>
-            <p>REGRAS PARA CRIADORES DE ILHAS DO FORTNITE!</p>
+            <img src="https://www.minecraft.net/content/dam/games/dungeons/key-art/md25-header.jpg.transform/minecraft-image-small/image.jpg" />
+            <h3 className={styles.pAzul}>27 de setembro de 2023</h3>
+            <p> Minecraft Dungeons passa de 25 milhões de jogadores</p>
           </div>
 
           <div className={styles.card2}>

@@ -13,6 +13,9 @@
     background-color: #52a535;
     text-align: center;
 }
+.divHeader2{
+    text-align: center;
+}
 
 .tituloHeader {
     font-family: 'Title-Minecraft-Font';
@@ -21,8 +24,20 @@
     font-size: 4rem;
     text-transform: uppercase;
     padding-bottom: 8px;
+
 }
 
+.tituloCards{
+    font-family: 'Title-Minecraft-Font';
+    color: white;
+    padding-top: 1em;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    text-align: center;
+    align-items: center;
+
+}
 .container2 {
     display: flex;
     align-items: center;
@@ -32,7 +47,7 @@
 }
 
 .container3 {
-    background-image: url(https://cdn2.unrealengine.com/fortnite-airphoria-1900x600-c928324c123d.jpg);
+    background-image: url(	https://www.minecraft.net/content/dam/games/minecraft/key-art/highlight-tails.jpg);
     background-size: cover;
     background-position: center;
     height: 330px;
@@ -64,7 +79,7 @@
 
 
 .container4 {
-    background-image: url(https://cdn2.unrealengine.com/fncs-global-championship-2023-1900x600-949a1419fabc.jpg);
+    background-image: url(	https://www.minecraft.net/content/dam/games/badger/key-art/highlight-legends.jpg);
     background-size: cover;
     background-position: center;
     height: 330px;
