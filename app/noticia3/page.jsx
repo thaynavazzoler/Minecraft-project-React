@@ -43,6 +43,7 @@ export default function NoticiaPage() {
 </p>
                     <p className={Styles.description2}>Vocês são todos maravilhosos. Obrigado por todo o seu apoio e nos vemos nas masmorras! </p>
                 </div>
+                
 
                 <div className={Styles.text3}>
                     <img src="https://s-trojmiasto.pl/zdj/c/n/9/2703/597x0/2703588-Oto-postac-z-gry-ktora-synowi-naszej-czytelniczki-kojarzy-sie-z-wieza.jpg" alt="Villager do minecraft" className={Styles.img3} />
@@ -59,6 +60,7 @@ export default function NoticiaPage() {
                  <p className={Styles.icon}> <FaSquareXTwitter /></p>
                  <p className={Styles.icon}><FaReddit /></p>
                 </div>
+
                
             </div>
          
