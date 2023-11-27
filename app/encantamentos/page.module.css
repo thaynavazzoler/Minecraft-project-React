@@ -1,42 +1,43 @@
 .main {
     color: #141414;
 }
-.encantamento {
-    background-color: #a09172;
-    color: #685e4a;
-    width: 30%;
-    padding: 15px 25px;
-    font-size: 1.5rem;
-    text-shadow: #000 1px 1px 1px;
-    border-bottom: #685e4a 5px solid;
-    border-right: #685e4a 5px solid;
-    border-left: #decaa6 5px solid;
-    border-top: #decaa6 5px solid;
-}
 
-.encantamento:hover {
-    /* background-color: #685e4a;
-    color: #a09172;
-    transition: 0.3s; */
-    background-color: #b887aa;
-    color: #feefb7;
-    text-shadow: none;
-    border-bottom: #6b4a60 5px solid;
-    border-right: #6b4a60 5px solid;
-    border-left: #f7d9f0 5px solid;
-    border-top: #f7d9f0 5px solid;
+.encantamentos_container {
+    position: relative;
 }
-
 .encantamentos_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    padding: 20px 0;    
-
+    justify-content: center;
 }
+.encantamento{
+    width: 50px; /* ajuste o tamanho conforme necessário */
+    height: 50px; /* ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* para criar um círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+
+
+
+
+.encantamento:nth-child(1) { transform: rotate(0deg) translateX(100px); }
+.encantamento:nth-child(2) { transform: rotate(60deg) translateX(100px); }
+.encantamento:nth-child(3) { transform: rotate(120deg) translateX(100px); }
+.encantamento:nth-child(4) { transform: rotate(180deg) translateX(100px); }
+.encantamento:nth-child(5) { transform: rotate(240deg) translateX(100px); }
+.encantamento:nth-child(6) { transform: rotate(300deg) translateX(100px); }
+
 
 
 
@@ -50,12 +51,13 @@
 .subTitles {
     font-family: 'Minecraft-Enchantment-Font';
 }
-.encantamento_name {
-    font-family: 'Minecraft-Font';
-}
-.encantamento_level {
-    font-family: 'Minecraft-Font';
-}
-.encantamento_name_sigla{
-    font-family: 'Minecraft-Enchantment-Font';
+.titles_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 3rem;
+    text-shadow: #000 1px 1px 1px;
+    color: white;
 }
