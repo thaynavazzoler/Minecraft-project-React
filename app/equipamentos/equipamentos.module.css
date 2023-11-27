@@ -1,0 +1,22 @@
+.bg {
+    background-color: black;
+    padding: 10px;
+}
+
+.boxInventory {
+    background-color: #c6c6c6;
+    
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sword {
+    display: flex;
+}
+
+.itemArmadura {
+    background-image: url(../../public/inventory/slot.png);
+    width: 54px;
+    height: 54px;
+    margin: 2px;
+}
