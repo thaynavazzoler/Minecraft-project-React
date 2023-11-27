@@ -1,41 +1,61 @@
 .main {
-    background-color: #141414;
-    color: #fff;
+    color: #141414;
 }
-.container_text {
+.encantamento {
+    background-color: #a09172;
+    color: #685e4a;
+    width: 30%;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    text-shadow: #000 1px 1px 1px;
+    border-bottom: #685e4a 5px solid;
+    border-right: #685e4a 5px solid;
+    border-left: #decaa6 5px solid;
+    border-top: #decaa6 5px solid;
+}
+
+.encantamento:hover {
+    /* background-color: #685e4a;
+    color: #a09172;
+    transition: 0.3s; */
+    background-color: #b887aa;
+    color: #feefb7;
+    text-shadow: none;
+    border-bottom: #6b4a60 5px solid;
+    border-right: #6b4a60 5px solid;
+    border-left: #f7d9f0 5px solid;
+    border-top: #f7d9f0 5px solid;
+}
+
+.encantamentos_list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    padding: 20px 0;    
+
 }
-.titles{
+
+
+
+
+
+
+
+.titles {
     font-family: 'Title-Minecraft-Font';
-    margin-top: 7rem;
 }
 .subTitles {
     font-family: 'Minecraft-Enchantment-Font';
 }
-.lista_encantamentos {
-    display: flex;
-    flex-direction: row;
+.encantamento_name {
+    font-family: 'Minecraft-Font';
 }
-.encantamentos {
-    padding: 1rem;
-    margin-top: 7rem;
+.encantamento_level {
+    font-family: 'Minecraft-Font';
 }
-.encantamento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 7rem;
-    width: 80%;
-}
-.book {
-
-}
-.nome_encantamento {
-    font-family: 'Title-Minecraft-Font';
-    font-size: 2rem;
-    margin-top: 2rem;
+.encantamento_name_sigla{
+    font-family: 'Minecraft-Enchantment-Font';
 }
