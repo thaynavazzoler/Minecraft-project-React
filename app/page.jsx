@@ -30,19 +30,19 @@ export default function Home() {
             <div className={styles.card1}>
               <img src="https://www.minecraft.net/content/dam/games/dungeons/key-art/md25-header.jpg.transform/minecraft-image-small/image.jpg" />
               <h3 className={styles.pAzul}>27 de setembro de 2023</h3>
-              <p> Minecraft Dungeons passa de 25 milhões de jogadores</p>
+              <p> MINECRAFT DUNGEONS PASSA DE 25 MILHÕES DE JOGADORES</p>
             </div>
 
             <div className={styles.card2}>
-              <img src="https://cdn2.unrealengine.com/fortnite-battle-royale-v26-00-sep-6-hotfix-1900x600-f9c76d99b886.jpg" />
+              <img src="armamentoMIne.jpg" />
               <h3 className={styles.pAzul}>22 de outubro de 2023!</h3>
-              <p>AJUSTE DO BATTLE ROYALE DE 6 DE SETEMBRO: PEM QUEBRADOR DE ESCUDO E MAIS!!</p>
+              <p>VEJA TODOS OS ARMAMENTOS DO MINECRAFT AGORA MESMO!!!</p>
             </div>
 
             <div className={styles.card3}>
-              <img className={styles.imgFooter} src="https://cdn2.unrealengine.com/summer-escape-header-1900x600-6d21ba26b832.jpg" />
+              <img className={styles.imgFooter} src="encantamentoMine.png"/>
               <h3 className={styles.pAzul}>30 de outubro de 2023!</h3>
-              <p>MERGULHE NA FUGA DE VERÃO DO FORTNITE!</p>
+              <p>VEJA TODOS OS ENCANTAMENTOS DO MINECRAFT AGORA MESMO!!</p>
             </div>
           </div>
           <div>
