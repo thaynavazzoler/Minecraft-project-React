@@ -39,7 +39,7 @@ const equipamentoPage = () => {
                 <div className={styles.boxInventory}>
                     <div className={styles.armadura}>
                         <div onClick={() => handleEquipamento('capacete')} className={styles.itemArmadura}>
-                            <img id='capaceteImg' className={`${styles.itemDoItem} ${styles.hidden}`} src={"inventory/golden_helmet.png"} alt="capacete" />
+                            <img id='capaceteImg' className={`${styles.itemDoItem} ${styles.hidden}`} src={"https://minecraft.tools/en/img/outils/armure-complete-site-mctools.png"} alt="capacete" />
                         </div>
                         <div onClick={() => handleEquipamento('peitoral')} className={styles.itemArmadura}>
                             <img id='peitoralImg' className={`${styles.itemDoItem} ${styles.hidden}`} src={"inventory/golden_chestplate.png"} alt="peitoral" />
