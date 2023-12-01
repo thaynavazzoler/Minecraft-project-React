@@ -60,7 +60,7 @@ const equipamentoPage = () => {
                         <div onClick={() => handleEquipamento('bota')} className={`${styles.itemArmadura} ${styles.itemCalca}`}>
                             <img style={{ backgroundColor: corBota }} id="botaImg" className={`${styles.itemDoItem} ${styles.hidden}`} src={"inventory/botaFinal.png"} alt="bota" />
                         </div>
-                        <div onClick={() => handleEquipamento('espada')} className={`${styles.espadaSlot} ${styles.itemArmadura}`}>
+                        <div onClick={() => handleEquipamento('espada')} className={`${styles.itemArmadura}`}>
                             <img style={{ backgroundColor: corEspada }} id="espadaImg" className={`${styles.itemDoItem} ${styles.hidden}`} src={"inventory/espadaFinal.png"} alt="espada" />
                         </div>
                         {
