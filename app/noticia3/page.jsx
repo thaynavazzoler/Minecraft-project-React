@@ -48,7 +48,7 @@ export default function NoticiaPage() {
                 <div className={Styles.text3}>
                     <img src="https://s-trojmiasto.pl/zdj/c/n/9/2703/597x0/2703588-Oto-postac-z-gry-ktora-synowi-naszej-czytelniczki-kojarzy-sie-z-wieza.jpg" alt="Villager do minecraft" className={Styles.img3} />
                 <p className={Styles.description3}>Escrio por: Thayná</p>
-                <p className={Styles.description3}>Publicada 09/27/2023</p>
+                <p className={Styles.description3}>Publicada 01/12/2023</p>
                 </div>
 
                 <div>
@@ -57,9 +57,8 @@ export default function NoticiaPage() {
 
 
                 <div className={Styles.icons}>
-                <a href="https://github.com/MagoValdivia28/Minecraft-project-React"><FaGithub /></a>
-                <a href="https://linktr.ee/admin"><SiLinktree /></a>
-                <a href="https://www.instagram.com"><AiFillInstagram /></a>
+                <a href="https://github.com/MagoValdivia28/Minecraft-project-React" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                <a href="https://linktr.ee/admin" target="_blank" rel="noopener noreferrer"><SiLinktree /></a>
                 </div>
 
                
